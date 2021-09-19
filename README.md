@@ -27,9 +27,40 @@ Laravel has the most extensive and thorough [documentation](https://laravel.com/
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
+
+
 ## Laravel Sponsors
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+
+
+## Clonar proyecto laravel en windows
+>composer install
+
+>copiar .env
+
+>php artisan key:generate
+
+>configurar las credenciales de conexión de la base de datos en el .env
+
+>php artisan migrate:fresh --seed
+
+>php artisan serve
+
+## Clonar proyecto laravel en linux
+>composer install
+
+>cp .env.example .env
+
+>php artisan key:generate
+
+>configurar las credenciales de conexión de la base de datos en el .env
+
+>sudo chmod -R 755 storage
+
+>php artisan migrate:fresh --seed
+
+>php artisan serve
 
 ### Premium Partners
 
